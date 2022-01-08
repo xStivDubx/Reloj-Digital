@@ -18,6 +18,8 @@ const mostrarTiempo=()=>{
 
     document.getElementById("date").innerHTML=fechaFinal;
 
+    document.querySelector(".container").classList.toggle("animacion");
+
 }
 
 
